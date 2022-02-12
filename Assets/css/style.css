@@ -43,3 +43,77 @@ header nav ul li a {
     font-size: 1.55vw;
     color: aquamarine;
 }
+
+.hero {
+background-image: url("../images/snowswitzerland.jpg");
+background-size: cover;
+background-position: center;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: right;
+width: 100%;
+height: 300px;    /* Need to eleminate this */
+
+}
+
+.hero h2 {
+    width: 35%;
+    font-size: 36px;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hero-img img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* End hero section */
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.step {
+    margin: 50px auto;
+    display: flex;
+}
+
+.step h2 {
+    flex:1 35%;
+}
+
+.step-info {
+    flex: 2 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.step-info img { /* This defination is the same as above */
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.mainSection section {
+    display: flex;
+    padding: 20px;
+}
+
+
+.mainSection nav ul {
+    display: flex;
+    
+}
+.mainSection nav ul li { /* This defination is the same as above */
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color:black;
+
+}
